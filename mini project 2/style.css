@@ -19,8 +19,43 @@ body {
     line-height: 1.6;
     color: var(--dark);
     height: 200rem;
-    background-image:linear-gradient(125deg,violet,blue,black);
+    background-image: linear-gradient(125deg, violet, blue, black);
+
 }
+.l{
+width: 10px;
+height: 120px;
+
+
+
+}
+
+i{
+    z-index: 1;
+color: #f9f9f9;
+font-size: 2rem;
+}
+i::before{
+content: "";
+position: absolute;
+width: 10%;
+background-image: linear-gradient(180deg,rgb(0, 183, 255),rgb(255,48,255));
+height: 130%;
+animation: rotBGimg 3s linear infinite;
+transition: all 0.2s linear;
+}
+@keyframes rotBGimg{
+from{
+    transform: rotate(0deg);
+}
+to{
+    transform: rotate(360deg);
+}
+}
+i::after{
+
+}
+
 
 .container {
     max-width: 1200px;
@@ -184,8 +219,8 @@ footer {
     background: var(--light);
     margin-top: 40px;
     position: absolute;
-top: 195rem;
-left: 40%;
+    top: 195rem;
+    left: 40%;
 
 }
 
@@ -213,4 +248,126 @@ left: 40%;
     nav ul {
         flex-direction: column;
     }
+}
+
+.ph {
+    width: 90%;
+    height: 150rem;
+    border: solid;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgba(30, 36, 43, 0.161);
+    padding: 10px;
+    justify-content: space-betw40rem;
+    position: absolute;
+    left: 5%;
+    padding: 2px;
+}
+
+.ph1 {
+    width: 93%;
+    height: 48rem;
+    border: solid;
+    background-image: url(ninja-zx-10r-right-side-view-2\ \(1\).avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ph2 {
+    width: 93%;
+    height: 48rem;
+    border: solid;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ph3 {
+    width: 93%;
+    height: 48rem;
+    border: solid;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.ph4 {
+    width: 93%;
+    height: 48rem;
+    border: solid;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ph5 {
+    width: 93%;
+    height: 48rem;
+    border: solid;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ph6 {
+    width: 93%;
+    height: 48rem;
+    border: solid;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.write1 {
+    width: 100%;
+    height: 10rem;
+    border: solid;
+    position: relative;
+    top: 80%;
+
+}
+
+.write2 {
+    width: 100%;
+    height: 10rem;
+    border: solid;
+    position: relative;
+    top: 80%;
+
+}
+
+.write3 {
+    width: 100%;
+    height: 10rem;
+    border: solid;
+    position: relative;
+    top: 80%;
+
+}
+
+.write4 {
+    width: 100%;
+    height: 10rem;
+    border: solid;
+    position: relative;
+    top: 80%;
+
+}
+
+.write5 {
+    width: 100%;
+    height: 10rem;
+    border: solid;
+    position: relative;
+    top: 80%;
+
+}
+
+.write6 {
+    width: 100%;
+    height: 10rem;
+    border: solid;
+    position: relative;
+    top: 80%;
 }
