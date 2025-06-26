@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="contact.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Jacquard+12&family=Sancreek&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+  <div class="video-bg">
+    <video autoplay muted loop playsinline>
+      <source src="./5198954-uhd_2160_4096_25fps.mp4" type="video/mp4">
+      Your browser doesn’t support the video tag.
+    </video>
+  </div>
+
+  <div class="overlay"></div>
+
+  <main class="container fade-on-scroll">
+    <h1>Contact Us</h1>
+    <form id="contact-form" class="contact-form">
+      <label><span>Name</span><input type="text" name="name" required placeholder="Your Name"/></label>
+      <label><span>Email</span><input type="email" name="email" required placeholder="you@example.com"/></label>
+      <label><span>Mobile</span><input type="tel" name="mobile" required placeholder="+91 98765 43210" pattern="[0-9+ ]{7,15}"/></label>
+      <label><span>Message</span><textarea name="message" rows="5" required placeholder="How can we help?"></textarea></label>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div id="map" class="map-container">
+      <!-- Embed your Google Map iframe here -->
+    </div>
+  </main>
+
+  <script src="contact.js"></script>
+</body>
+</html>
